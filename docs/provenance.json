@@ -1,0 +1,425 @@
+{
+  "collection": "Vilnius University cryptography coursework, autumn 2024",
+  "original_sage_environment": "SageMathCell, identified by the author",
+  "original_source_files": 10,
+  "recovered_practice_labels": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "labels_without_identified_material": [
+    2,
+    7,
+    12,
+    15,
+    16
+  ],
+  "standalone_scripts": 7,
+  "partial_helper_worksheets": 2,
+  "validation": "Static source comparison and documentation review only; coursework programs were not executed, imported, compiled or tested.",
+  "sources": [
+    {
+      "source": "Kriptografija/prat1.txt",
+      "sha256": "2fe1f9aeb5915695c4176cda72757ddf8a7184d9d5be88164944c3f9afcbeffa",
+      "practice_labels": [
+        1,
+        3
+      ]
+    },
+    {
+      "source": "Kriptografija/kriptografija4.txt",
+      "sha256": "8026202135f25ea8cfda5bf2cf80ceb906435c8cd390570e2c44950429ad9c7f",
+      "practice_labels": [
+        4
+      ]
+    },
+    {
+      "source": "Kriptografija/kripto5-6.txt",
+      "sha256": "94706a7201cf73481a474ba2f1a4527e964de82fdc35e004a9f637685905bfa6",
+      "practice_labels": [
+        5,
+        6
+      ]
+    },
+    {
+      "source": "Kriptografija/kripto8.txt",
+      "sha256": "78e323b6143191ba277ce9fbb9d03618fa71d1f5bcfea34098fe0ed4858f8cf5",
+      "practice_labels": [
+        8
+      ]
+    },
+    {
+      "source": "Kriptografija/kripto_9sav.txt",
+      "sha256": "5d3206289f62b506a410d89632821e37f4c6d8f2a66d8b21525b787478936137",
+      "practice_labels": [
+        9
+      ]
+    },
+    {
+      "source": "Kriptografija/kript10.txt",
+      "sha256": "68c9a030e893e11d7cec03dc466d72b3725499fe179e23df5bceb292866ece02",
+      "practice_labels": [
+        10
+      ]
+    },
+    {
+      "source": "Kriptografija/kriptografija11.txt",
+      "sha256": "9826061be56e83b67ce450f99e424c30268c11ed9d16e816dd7bcd81bac05762",
+      "practice_labels": [
+        11
+      ]
+    },
+    {
+      "source": "Kriptografija/kriptografija13.txt",
+      "sha256": "733755c289945987b7fa92210ccb089a701fcaf0ef23a134391c507d7b82fd9a",
+      "practice_labels": [
+        13
+      ]
+    },
+    {
+      "source": "Kriptografija/kriptografija14.txt",
+      "sha256": "7f6b6a2f59896147445c274e5db5c80109baaddc08f6213ea9d67131bc4319b9",
+      "practice_labels": [
+        14
+      ]
+    },
+    {
+      "source": "Downloads/kripto_13.py",
+      "sha256": "99f916d3b7805ca8a423446eddb5843c91df863a7693cd529e2e635b64948247",
+      "practice_labels": [
+        13
+      ]
+    }
+  ],
+  "code_artifacts": [
+    {
+      "path": "labs/03-caesar-analysis/caesar_frequency.py",
+      "sha256": "93e1ad2bc2ab26ced8fe327ddea0c45a701449df34f0bc05c159dcf64b0b3183",
+      "source": "Kriptografija/prat1.txt",
+      "source_lines": [
+        [
+          139,
+          168
+        ]
+      ],
+      "status": "complete frequency-ranking exercise",
+      "changes": [
+        "Exact source excerpt with original syntax/comments; extension identifies the required environment."
+      ],
+      "runtime": "Python 3"
+    },
+    {
+      "path": "labs/04-enigma/rotor_helpers.sage",
+      "sha256": "82a92272c83358453b690c8815f70b7694ec2da775c8c91b0b5d0e83f0bf7e95",
+      "source": "Kriptografija/kriptografija4.txt",
+      "source_lines": [
+        [
+          118,
+          163
+        ]
+      ],
+      "status": "partial rotor worksheet, not a complete Enigma decryptor",
+      "changes": [
+        "Exact source excerpt with original syntax/comments; extension identifies the required environment."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/05-feistel/feistel_decrypt.sage",
+      "sha256": "bc38da6dd409af2311f2ac5478ecca64af044ee33b68ebbe34419a50e2fcdf94",
+      "source": "Kriptografija/kripto5-6.txt",
+      "source_lines": [
+        [
+          51,
+          78
+        ]
+      ],
+      "status": "complete saved exercise5.2 cell",
+      "changes": [
+        "Exact source excerpt with original syntax/comments; extension identifies the required environment."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/08-lfsr/lfsr_helpers.sage",
+      "sha256": "3fa2bd93f0fc060af1a47d2e20c5a28ab1736620f44e64477349171aede85e5b",
+      "source": "Kriptografija/kripto8.txt",
+      "source_lines": [
+        [
+          12,
+          42
+        ]
+      ],
+      "status": "partial helper definitions; missing recovered coefficient/state solution",
+      "changes": [
+        "Exact source excerpt with original syntax/comments; extension identifies the required environment."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/09-randomness-tests/randomness_tests.sage",
+      "sha256": "5d3206289f62b506a410d89632821e37f4c6d8f2a66d8b21525b787478936137",
+      "source": "Kriptografija/kripto_9sav.txt",
+      "source_lines": [
+        [
+          1,
+          128
+        ]
+      ],
+      "status": "standalone exercise script",
+      "changes": [
+        "Renamed complete all-code worksheet to .sage; bytes unchanged."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/10-knapsack/knapsack_decode.sage",
+      "sha256": "0d66d09d7cfa12fea4e373e28a0fdc821949344118e2e504861e5a853dbcfdad",
+      "source": "Kriptografija/kript10.txt",
+      "source_lines": [
+        [
+          23,
+          36
+        ]
+      ],
+      "status": "standalone exercise script",
+      "changes": [
+        "Extracted listed line ranges from mixed worksheet; omitted prompts, recorded output and unrelated scratch cells.",
+        "Added one final newline; non-adjacent ranges joined by one newline where applicable."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/11-rsa/rsa_decrypt.sage",
+      "sha256": "52967809ba6ce77dfad34559ff2219d42a73e8e1a89d2ad317c35df1060b8be3",
+      "source": "Kriptografija/kriptografija11.txt",
+      "source_lines": [
+        [
+          135,
+          161
+        ],
+        [
+          183,
+          184
+        ]
+      ],
+      "status": "standalone exercise script",
+      "changes": [
+        "Extracted listed line ranges from mixed worksheet; omitted prompts, recorded output and unrelated scratch cells.",
+        "Added one final newline; non-adjacent ranges joined by one newline where applicable.",
+        "Wrapped the final bare worksheet expression i_teksta(M) in print(...) so Sage CLI displays it; arithmetic and codec unchanged."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/11-rsa/common_modulus.sage",
+      "sha256": "2155949f2289b10fd11fd5099bb62b6bd78888253da94025edb1612145d608ca",
+      "source": "Kriptografija/kriptografija11.txt",
+      "source_lines": [
+        [
+          84,
+          118
+        ]
+      ],
+      "status": "standalone exercise script",
+      "changes": [
+        "Extracted listed line ranges from mixed worksheet; omitted prompts, recorded output and unrelated scratch cells.",
+        "Added one final newline; non-adjacent ranges joined by one newline where applicable.",
+        "Wrapped the final bare worksheet expression i_teksta(m) in print(...) so Sage CLI displays it; arithmetic and codec unchanged."
+      ],
+      "runtime": "SageMath"
+    },
+    {
+      "path": "labs/13-elgamal/elgamal_nonce_reuse.py",
+      "sha256": "99f916d3b7805ca8a423446eddb5843c91df863a7693cd529e2e635b64948247",
+      "source": "Downloads/kripto_13.py",
+      "source_lines": [
+        [
+          1,
+          129
+        ]
+      ],
+      "status": "standalone exercise script",
+      "changes": [
+        "Renamed existing Python script; bytes unchanged, including instructor-helper attribution."
+      ],
+      "runtime": "Python 3.8 or newer"
+    }
+  ],
+  "note_artifacts": [
+    {
+      "path": "labs/03-caesar-analysis/worksheet-notes.md",
+      "source": "Kriptografija/prat1.txt",
+      "source_lines": [
+        [
+          132,
+          138
+        ]
+      ],
+      "role": "practice label and four saved answers; unrelated material beforeline132excluded"
+    },
+    {
+      "path": "labs/04-enigma/worksheet-notes.md",
+      "source": "Kriptografija/kriptografija4.txt",
+      "source_lines": [
+        [
+          1,
+          3
+        ],
+        [
+          102,
+          116
+        ],
+        [
+          40,
+          40
+        ]
+      ],
+      "role": "saved answers, full supplied exercise/ciphertext, unique preprocessing display"
+    },
+    {
+      "path": "labs/05-feistel/worksheet-notes.md",
+      "source": "Kriptografija/kripto5-6.txt",
+      "source_lines": [
+        [
+          1,
+          46
+        ],
+        [
+          82,
+          111
+        ],
+        [
+          115,
+          154
+        ],
+        [
+          157,
+          157
+        ]
+      ],
+      "role": "5.1answer,5.2answerfragments,5.3incompletecellwithinputandrecordedanswer"
+    },
+    {
+      "path": "labs/08-lfsr/worksheet-notes.md",
+      "source": "Kriptografija/kripto8.txt",
+      "source_lines": [
+        [
+          1,
+          8
+        ],
+        [
+          44,
+          57
+        ],
+        [
+          92,
+          104
+        ],
+        [
+          110,
+          115
+        ]
+      ],
+      "role": "twoexerciseinputs, knownprefix and bothmatrixstages withunresolvedstate"
+    },
+    {
+      "path": "labs/11-rsa/factorization-notes.md",
+      "source": "Kriptografija/kriptografija11.txt",
+      "source_lines": [
+        [
+          58,
+          76
+        ],
+        [
+          164,
+          181
+        ]
+      ],
+      "role": "Non-entrypoint source fragments; no algorithm repairs."
+    },
+    {
+      "path": "labs/13-elgamal/recorded-answer.md",
+      "source": "Kriptografija/kriptografija13.txt",
+      "source_lines": [
+        [
+          1,
+          3
+        ]
+      ],
+      "role": "Recorded answer from a different/unlinked parameter set, not expected output for included Python script."
+    },
+    {
+      "path": "docs/recorded-notes.md",
+      "source": "Kriptografija/prat1.txt",
+      "source_lines": [
+        [
+          1,
+          122
+        ]
+      ],
+      "role": "Manual classical-cipher worksheet, copied into a Markdown code block."
+    },
+    {
+      "path": "docs/recorded-notes.md",
+      "source": "Kriptografija/kripto5-6.txt",
+      "source_lines": [
+        [
+          161,
+          317
+        ]
+      ],
+      "role": "Practice 6 answers; line breaks within answers 6.3 and 6.4 joined."
+    },
+    {
+      "path": "docs/recorded-notes.md",
+      "source": "Kriptografija/kriptografija14.txt",
+      "source_lines": [
+        [
+          1,
+          4
+        ]
+      ],
+      "role": "Unidentified numerical answers reformatted into a table."
+    },
+    {
+      "path": "labs/10-knapsack/README.md",
+      "source": "Kriptografija/kript10.txt",
+      "source_lines": [
+        [
+          1,
+          18
+        ],
+        [
+          39,
+          39
+        ]
+      ],
+      "role": "Earlier numerical block and the second exercise answer retained as historical notes."
+    },
+    {
+      "path": "labs/11-rsa/factorization-notes.md",
+      "source": "Kriptografija/kriptografija11.txt",
+      "source_lines": [
+        [
+          31,
+          31
+        ]
+      ],
+      "role": "Recorded answer for the second RSA exercise."
+    }
+  ],
+  "omissions": [
+    "Duplicate worksheet snapshots and repeated prompts consolidated.",
+    "Unrelated personal material and operating-system files excluded.",
+    "No missing historical solution was invented."
+  ]
+}

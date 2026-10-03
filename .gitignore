@@ -1,0 +1,18 @@
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sage-generated Python files and local state
+*.sage.py
+.sage/
+
+# Editor, operating-system and local files
+.idea/
+.vscode/
+.DS_Store
+.env
+.env.*
+/results/
