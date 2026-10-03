@@ -2,13 +2,13 @@
 
 This repository organizes cryptography coursework from Lukaš Patrik Magalinski's autumn 2024 study archive at Vilnius University, Faculty of Mathematics and Informatics. The eighth-practice worksheet includes his name.
 
-The course is *Kriptografija ir informacijos sauga* (Cryptography and Information Security). The [official VU module description](https://www.vu.lt/ind/files/am%24lpd_adm_app.public_view_lpd_sandasp_sarasas_id%3D8EE548EC97B1ADCC9E3DF374845A845D3C978E26AB09EEA6.pdf) names Vilius Stakėnas as coordinator. This public description is course context, not a verified transcript or an exact 2024 assignment schedule.
+The course is *Kriptografija ir informacijos sauga* (Cryptography and Information Security).
 
 ## Classroom material
 
 The saved worksheets combine assigned ciphertexts and numerical parameters, helper functions, calculations and recorded answers. They implement established cryptographic methods used in the course.
 
-The ElGamal script explicitly credits the instructor for the `i_skaiciu` and `i_teksta` formatting helpers. That comment is preserved. The supplied file does not name the author of those functions, so the coordinator's name is not assigned to them by inference.
+The ElGamal script explicitly credits the instructor for the `i_skaiciu` and `i_teksta` formatting helpers. That comment is preserved.
 
 The original Lithuanian comments, alphabets and exercise data are retained. The English documentation explains the calculations and distinguishes full source blocks from partial notes.
 

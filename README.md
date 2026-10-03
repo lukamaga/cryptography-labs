@@ -148,4 +148,4 @@ The statistics exercise retains its original bit-packing and lag-index conventio
 
 Lukaš Patrik Magalinski, Vilnius University, Faculty of Mathematics and Informatics.
 
-Course: *Kriptografija ir informacijos sauga* (Cryptography and Information Security). The [official VU module description](https://www.vu.lt/ind/files/am%24lpd_adm_app.public_view_lpd_sandasp_sarasas_id%3D8EE548EC97B1ADCC9E3DF374845A845D3C978E26AB09EEA6.pdf) identifies Vilius Stakėnas as coordinator. The saved exercise files date from autumn 2024.
+Course: *Kriptografija ir informacijos sauga* (Cryptography and Information Security), autumn 2024.
